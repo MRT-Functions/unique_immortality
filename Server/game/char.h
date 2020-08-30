@@ -20,7 +20,7 @@ ESex GET_SEX(LPCHARACTER ch);
 #ifdef ENABLE_UNIQUE_IMMORTALITY
 	public:
 		bool		IsImmortal() {return bImmortality;}
-		void		SetImmortality(bool bInfo) { bInfo = bImmortality;}
+		void		SetImmortality(bool bInfo) { bImmortality = bInfo;}
 	private:
 		bool		bImmortality;
 #endif
